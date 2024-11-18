@@ -1,16 +1,22 @@
+import Image from 'next/image';
 import React from 'react';
 
 const MentalHealthAcademicImpact = () => {
   return (
     <div className='space-y-10'>
-      <h1 className='text-[40px] font-bold'>
+      {/* <h1 className='text-[40px] font-bold'>
       AHUK – The Impact of Mental Health on Academic Performance: How to Seek Help and Maintain Well-being
-      </h1>
+      </h1> */}
 
       <p className='text-[14px] lg:text-[16px]'>Alright, let’s dig in—because, let’s be real, this is one topic that doesn’t get enough of the spotlight, even though it affects almost everyone in some way. Mental health and academic performance? They go together like coffee and sleepless nights. But unlike that last-minute caffeine binge, prioritising mental health is actually good for you! </p>
 
       <p className='text-[14px] lg:text-[16px]'>Let’s take a look at why mental health matters so much to your academic success, how it can impact your studies, and the steps you can take to keep yourself balanced, focused, and thriving.</p>
-
+      <Image
+          src="/assets/blog1.png"
+          alt=""
+          height={200}
+          width={400}
+        />
       <h2 className='text-[26px] lg:text-[28px] font-bold'>How Mental Health Affects Academic Performance</h2>
       <p className='text-[14px] lg:text-[16px]'>Ever feel like no matter how much you study, nothing sticks? Or maybe you’ve been overwhelmed just thinking about your to-do list. You’re not alone. When your mind isn’t in the best place, it can be like having a “brain fog” filter on your thoughts, making it nearly impossible to focus or even remember basic things (like where you left your notes—again). The effect of mental health on students is real and undeniable—stress, anxiety, and depression can create barriers that interfere with concentration, memory, and overall academic performance.</p>
 

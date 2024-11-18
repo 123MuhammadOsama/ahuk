@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const ReferencingGuideForUkStudents = () => {
@@ -5,14 +6,19 @@ const ReferencingGuideForUkStudents = () => {
     <div className='space-y-10'>
       
 
-      <h1 className='text-[40px] font-bold'>
+      {/* <h1 className='text-[40px] font-bold'>
       AHUK – Mastering the Art of Referencing: A Guide for UK Students
-      </h1>
+      </h1> */}
 
       <p className='text-[14px] lg:text-[16px]'>Referencing. For most students, it’s that one elusive skill that can make or break an academic assignment. If you've ever found yourself staring blankly at a bibliography wondering how you’ll ever get it right—or what in the world Harvard vs. APA vs. MLA vs. Chicago even means—don’t worry. You're not alone. Welcome to the ultimate guide to mastering the art of referencing, crafted just for you! </p>
 
       <p className='text-[14px] lg:text-[16px]'>This guide covers everything you need to know to make referencing as smooth as a (hopefully stress-free) cup of tea. So grab a seat, maybe some biscuits, and let’s dig in!</p>
-
+          <Image
+            src="/assets/blog2.png"
+            alt=''
+            height={300}
+            width={300}
+          />
       <h2 className='text-[26px] lg:text-[28px] font-bold'>Why Referencing Matters (Yes, It Actually Does!)</h2>
       <p className='text-[14px] lg:text-[16px]'>Ever thought, <span className='italic'>“Can’t I just skip this?”</span> Here’s why you really shouldn’t. Referencing is more than a “necessary evil”; it’s a skill that showcases your academic integrity and respect for others’ ideas. In academia, referencing is like wearing a badge that says, “I did my research, and I know my stuff!” Plus, it helps you steer clear of the dreaded plagiarism penalty—a top reason students turn to reliable assignmentshelp UK platforms for support.</p>
 
