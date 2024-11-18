@@ -435,7 +435,7 @@ export const blogData = [
     isoDate: new Date('8/12/2023').toISOString(),
     read: '12',
     author: 'Admin',
-    image: '/blog2front.jpg',
+    image: '/blog1front.jpg',
     openGraph: {
       title: 'Impact of Mental Health on Academic Performance and Well-being',
       description:
