@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /_next/
+Disallow: /]assignment$
+Disallow: /cgi-bin$
+Disallow: /coursework-writing-help$
+Disallow: /quantitative-analysis-assignment-help$
+Disallow: /dissertation-writing-help$
+Disallow: /project-management-assignment-help$
